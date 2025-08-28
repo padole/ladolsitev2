@@ -897,7 +897,7 @@ Section Titles
   }
 
 .about-banner{
-    background-image: url("../images/banner10.jpg");
+    background-image: url("../images/about-banner.jpg");
     min-height:340px;
     background-size: cover;
 }
