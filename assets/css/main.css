@@ -1009,3 +1009,32 @@ Section Titles
     .service-imgcard:hover img {
       transform: scale(1.1);
     }
+
+
+    .helipad-services{
+      list-style-position: inside;
+      padding-left: 0;       
+      margin: 0;
+    }
+
+    .helipad-services li{
+      text-indent: -1.2em;   /* pull first line left */
+      padding-left: 1.2em;   /* push whole block right so lines align */
+    }
+
+
+    .helipad-benifit img{
+      background-color: white;
+      border-radius: 50px;
+      width: 70px;
+      height: 70px;
+    }
+
+    .helipad-benifit{
+      min-height: 300px;
+      max-width: 250px;
+    }
+/*     
+    .helipad-benifit p{
+      font-size: xx-small;
+    } */
