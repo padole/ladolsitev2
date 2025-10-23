@@ -533,7 +533,7 @@ Section Titles
   color: var(--default-color);
 }
 
-.hero img {
+.hero video {
   position: absolute;
   inset: 0;
   display: block;
@@ -545,7 +545,7 @@ Section Titles
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 50%);
+  background: color-mix(in srgb, var(--background-color), transparent 70%);
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -903,7 +903,27 @@ Section Titles
 }
 
 .service-banner{
-    background-image: url("../images/forklift1.png");
+    background-image: url("../images/service-details1-banner.jpg");
+    /* background-image: url("../images/service-details1-img.jpg"); */
+    min-height:340px;
+    background-size: cover;
+}
+.service-banner-hotel{
+    background-image: url("../images/Hotel.png");
+    /* background-image: url("../images/service-details1-img.jpg"); */
+    min-height:340px;
+    background-size: cover;
+}
+.service-banner-fby{
+    background-image: url("../images/fby-banner.jpg");
+    /* background-image: url("../images/service-details1-img.jpg"); */
+    min-height:340px;
+    background-size: cover;
+}
+
+.service-banner-office{
+    background-image: url("../images/office-area.jpg");
+    /* background-image: url("../images/service-details1-img.jpg"); */
     min-height:340px;
     background-size: cover;
 }
