@@ -904,26 +904,32 @@ Section Titles
 
 .service-banner{
     background-image: url("../images/service-details1-banner.png");
-    /* background-image: url("../images/service-details1-img.jpg"); */
     min-height:340px;
     background-size: cover;
 }
 .service-banner-hotel{
     background-image: url("../images/Hotel.png");
-    /* background-image: url("../images/service-details1-img.jpg"); */
     min-height:340px;
     background-size: cover;
 }
 .service-banner-fby{
-    background-image: url("../images/fby-banner.jpg");
-    /* background-image: url("../images/service-details1-img.jpg"); */
+    background-image: url("../images/fby-banner.png");
     min-height:340px;
     background-size: cover;
 }
 
 .service-banner-office{
-    background-image: url("../images/office-area.jpg");
-    /* background-image: url("../images/service-details1-img.jpg"); */
+    background-image: url("../images/office-area.png");
+    min-height:340px;
+    background-size: cover;
+}
+.service-banner-powerplant{
+    background-image: url("../images/powerplant.jpg");
+    min-height:340px;
+    background-size: cover;
+}
+.service-banner-it{
+    background-image: url("../images/it-banner.png");
     min-height:340px;
     background-size: cover;
 }
