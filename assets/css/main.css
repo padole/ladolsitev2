@@ -898,7 +898,7 @@ Section Titles
   }
 
 .about-banner{
-    background-image: url("../images/about-banner.jpg");
+    background-image: url("../images/new-banner2.png");
     min-height:340px;
     background-size: cover;
 }
@@ -934,11 +934,21 @@ Section Titles
     min-height:340px;
     background-size: cover;
 }
-/* .service-banner-material{
-    background-image: url("../images/material-handling.png");
+.service-banner-helipad{
+    background-image: url("../images/helicopter.jpg");
     min-height:340px;
     background-size: cover;
-} */
+}
+.service-banner-waste{
+    background-image: url("../images/waste-banner.jpg");
+    min-height:340px;
+    background-size: cover;
+}
+.service-banner-dedicated{
+    background-image: url("../images/new-banner.png");
+    min-height:340px;
+    background-size: cover;
+}
 
 
 .contact-banner{
