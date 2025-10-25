@@ -533,7 +533,7 @@ Section Titles
   color: var(--default-color);
 }
 
-.hero img {
+.hero video {
   position: absolute;
   inset: 0;
   display: block;
@@ -545,7 +545,7 @@ Section Titles
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 45%);
+  background: color-mix(in srgb, var(--background-color), transparent 65%);
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -933,6 +933,11 @@ Section Titles
     min-height:340px;
     background-size: cover;
 }
+/* .service-banner-material{
+    background-image: url("../images/material-handling.png");
+    min-height:340px;
+    background-size: cover;
+} */
 
 
 .contact-banner{
