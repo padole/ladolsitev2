@@ -910,7 +910,7 @@ Section Titles
 }
 .service-banner-hotel{
     background-image: url("../images/Hotel.png");
-    min-height:340px;
+    min-height:500px;
     background-size: cover;
 }
 .service-banner-fby{
