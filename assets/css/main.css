@@ -898,8 +898,8 @@ Section Titles
   }
 
 .about-banner{
-    background-image: url("../images/new-banner2.png");
-    min-height:340px;
+    background-image: url("../images/about-banner-new.png");
+    min-height:440px;
     background-size: cover;
 }
 
@@ -958,7 +958,7 @@ Section Titles
 }
 
 .overlay{
-    background-color: rgba(0, 0, 0, 0.4) !important;
+    background-color: rgba(0, 0, 0, 0.2) !important;
     min-height: inherit;
 }
 
