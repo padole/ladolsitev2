@@ -1,10 +1,4 @@
-/**
-* Template Name: Presento
-* Template URL: https://bootstrapmade.com/presento-bootstrap-corporate-template/
-* Updated: Aug 07 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 (function() {
   "use strict";
@@ -187,3 +181,88 @@
         modalImage.setAttribute('src', imageSrc);
       });
     });
+
+
+
+
+//     // Set a cookie
+// function setCookie(name, value, days) {
+//     const d = new Date();
+//     d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000));
+//     let expires = "expires=" + d.toUTCString();
+//     document.cookie = name + "=" + value + ";" + expires + ";path=/";
+// }
+
+// // Read a cookie
+// function getCookie(name) {
+//     let cname = name + "=";
+//     let decodedCookie = decodeURIComponent(document.cookie);
+//     let ca = decodedCookie.split(';');
+//     for (let i = 0; i < ca.length; i++) {
+//         let c = ca[i].trim();
+//         if (c.indexOf(cname) === 0) {
+//             return c.substring(cname.length, c.length);
+//         }
+//     }
+//     return "";
+// }
+
+
+// document.addEventListener("DOMContentLoaded", function() {
+
+//     if (!getCookie("cookieAccepted")) {
+//         document.getElementById("cookieBox").style.display = "flex";
+//     }
+
+//     document.getElementById("acceptCookies").addEventListener("click", function() {
+//         setCookie("cookieAccepted", "yes", 365);
+//         document.getElementById("cookieBox").style.display = "none";
+//     });
+
+// });
+
+
+// setCookie("userTheme", "dark", 30);
+
+// let theme = getCookie("userTheme");
+// console.log(theme);
+
+
+
+  function setCookie(name, value, days) {
+      const d = new Date();
+      d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000));
+      const expires = "expires=" + d.toUTCString();
+      document.cookie = name + "=" + value + ";" + expires + ";path=/";
+  }
+
+  function getCookie(name) {
+      const cname = name + "=";
+      const decodedCookie = decodeURIComponent(document.cookie);
+      const ca = decodedCookie.split(';');
+      for (let i = 0; i < ca.length; i++) {
+          let c = ca[i].trim();
+          if (c.indexOf(cname) === 0) {
+              return c.substring(cname.length, c.length);
+          }
+      }
+      return "";
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+      const cookieBox = document.getElementById("cookieBox");
+
+      if (!getCookie("cookieConsent")) {
+          cookieBox.classList.add("show");
+      }
+
+      document.getElementById("acceptCookies").addEventListener("click", function() {
+          setCookie("cookieConsent", "accepted", 365);
+          cookieBox.classList.remove("show");
+      });
+
+      document.getElementById("declineCookies").addEventListener("click", function() {
+          setCookie("cookieConsent", "declined", 365);
+          cookieBox.classList.remove("show");
+      });
+  });

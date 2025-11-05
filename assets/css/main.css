@@ -1081,3 +1081,83 @@ Section Titles
     .helipad-benifit p{
       font-size: xx-small;
     } */
+
+
+
+
+    /* .cookie-box {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background: #222;
+  color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 9999;
+}
+
+.cookie-btn {
+  background: #28a745;
+  border: none;
+  padding: 8px 16px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+} */
+
+
+/* COOKIE BOX STYLE */
+.cookie-box {
+  position: fixed;
+  bottom: -200px; /* starts hidden for animation */
+  left: 20px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.85); /* LADOL black tone */
+  color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 99999;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.cookie-box.show {
+  bottom: 20px;
+  opacity: 1;
+}
+
+.cookie-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+/* Buttons */
+.cookie-btn {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.cookie-btn.accept {
+  background: #009245; /* LADOL Green */
+  color: white;
+}
+
+.cookie-btn.decline {
+  background: #777;
+  color: white;
+}
+
+.cookie-btn:hover {
+  opacity: 0.8;
+}
+
