@@ -904,8 +904,8 @@ Section Titles
 }
 
 .service-banner{
-    background-image: url("../images/service-details1-banner.png");
-    min-height:340px;
+    background-image: url("../images/new-banner.png");
+    min-height:540px;
     background-size: cover;
 }
 .service-banner-hotel{
