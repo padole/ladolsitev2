@@ -1161,3 +1161,31 @@ Section Titles
   opacity: 0.8;
 }
 
+
+.check-img{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  /* margin-top: 10px; */
+}
+
+
+.mission-vision{
+    background-image: url("../images/mission-bg.png");
+    min-height:700px;
+    background-size: cover;
+    
+}
+
+/* .mission-vision .overlay{
+    background-color: rgba(80, 78, 78, 0.8) !important;
+    min-height: inherit
+} */
+
+.mission-text{
+    color: black;
+    background-color: white;
+}
+
+.certification-text{
+background-color: rgb(231, 228, 228);}
