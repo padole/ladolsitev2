@@ -898,8 +898,8 @@ Section Titles
   }
 
 .about-banner{
-    background-image: url("../images/about-new.png");
-    min-height:340px;
+    background-image: url("../images/aerail-picture.jpg");
+    min-height:540px;
     background-size: cover;
 }
 
@@ -910,54 +910,59 @@ Section Titles
 }
 .service-banner-hotel{
     background-image: url("../images/Hotel.png");
-    min-height:500px;
+    min-height:540px;
     background-size: cover;
 }
 .service-banner-fby{
     background-image: url("../images/fby-banner.png");
-    min-height:340px;
+    min-height:540px;
     background-size: cover;
 }
 
 .service-banner-office{
     background-image: url("../images/office-area.png");
-    min-height:340px;
+    min-height:540px;
     background-size: cover;
 }
 .service-banner-powerplant{
     background-image: url("../images/powerplant.jpg");
-    min-height:340px;
+    min-height:540px;
     background-size: cover;
 }
-.service-banner-powerplant{
+/* .service-banner-powerplant{
     background-image: url("../images/powerplant.jpg");
     min-height:340px;
     background-size: cover;
-}
+} */
 .service-banner-it{
     background-image: url("../images/it-banner.png");
-    min-height:340px;
+    min-height:540px;
     background-size: cover;
 }
 .service-banner-helipad{
     background-image: url("../images/helicopter.jpg");
-    min-height:340px;
+    min-height:540px;
     background-size: cover;
 }
 .service-banner-waste{
     background-image: url("../images/waste-banner.jpg");
-    min-height:340px;
+    min-height:540px;
     background-size: cover;
 }
 .service-banner-dedicated{
     background-image: url("../images/new-banner.png");
-    min-height:340px;
+    min-height:540px;
     background-size: cover;
 }
 
 .service-banner-material{
     background-image: url("../images/material-handling-banner.png");
     min-height:700px;
+    background-size: cover;
+}
+.sustainability-banner{
+    background-image: url("../images/sustainability.jpg");
+    min-height:540px;
     background-size: cover;
 }
 
