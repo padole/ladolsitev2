@@ -949,6 +949,12 @@ Section Titles
     min-height:340px;
     background-size: cover;
 }
+.service-banner-dedicated{
+    background-image: url("../images/new-banner.png");
+    min-height:340px;
+    background-size: cover;
+}
+
 .service-banner-material{
     background-image: url("../images/material-handling-banner.png");
     min-height:700px;
