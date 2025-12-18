@@ -957,7 +957,7 @@ Section Titles
 
 .service-banner-material{
     background-image: url("../images/material-handling-banner.png");
-    min-height:700px;
+    min-height:540px;
     background-size: cover;
 }
 .sustainability-banner{
@@ -968,8 +968,8 @@ Section Titles
 
 
 .contact-banner{
-    background-image: url("../images/banner.jpg");
-    min-height:340px;
+    background-image: url("../images/contact-us.png");
+    min-height:540px;
     background-size: cover;
 }
 
